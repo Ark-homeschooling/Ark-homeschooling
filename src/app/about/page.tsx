@@ -68,7 +68,7 @@ export default function AboutPage() {
         <Whale className="absolute -left-10 top-10 w-28 opacity-25 md:w-40" />
         <div className="section-pad relative mx-auto max-w-4xl">
           <SectionHeading eyebrow="Meet Your Educator" title="Teacher Farida" />
-
+        <div className="card-panel mt-10 grid gap-8 bg-white p-8 md:grid-cols-[220px_1fr] md:p-10">
         <div className="relative mx-auto h-44 w-44 overflow-hidden rounded-full border-4 border-teal/15 md:h-full md:w-full">
                   <Image
                     src="/profile.jpeg"
