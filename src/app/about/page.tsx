@@ -69,7 +69,7 @@ export default function AboutPage() {
         <div className="section-pad relative mx-auto max-w-4xl">
           <SectionHeading eyebrow="Meet Your Educator" title="Teacher Farida" />
 
-                          <div className="mx-auto h-44 w-44 overflow-hidden rounded-full md:h-full md:w-full">
+        <div className="relative mx-auto h-44 w-44 overflow-hidden rounded-full border-4 border-teal/15 md:h-full md:w-full">
                   <Image
                     src="/profile.jpeg"
                     alt="Teacher Farida"
