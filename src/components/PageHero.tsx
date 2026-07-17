@@ -8,7 +8,7 @@ type Props = {
 
 export default function PageHero({ eyebrow, title, subtitle }: Props) {
   return (
-    <section className="relative overflow-hidden bg-teal-dark pb-16 pt-16 text-center md:pt-24">
+    <section className="relative overflow-hidden bg-teal-dark pb-28 pt-16 text-center md:pb-36 md:pt-24">
       <div className="section-pad relative">
         <span className="inline-block rounded-full bg-white/15 px-4 py-1.5 font-body text-sm font-bold text-cream">
           {eyebrow}
