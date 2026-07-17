@@ -16,7 +16,7 @@ export default function Footer() {
             <span className="font-display text-xl">Ark Homeschooling</span>
           </div>
           <p className="mt-4 max-w-xs font-body text-sm text-cream/80">
-            Sailing into a world of wonder and learning &mdash; a warm,
+            Sailing into a world of wonder and learning. A warm,
             learner-centered home for curious minds aged 5 to 9.
           </p>
           <SocialIcons className="mt-5" />
