@@ -16,11 +16,12 @@ export default function Home() {
             <span className="inline-flex items-center gap-2 rounded-full bg-coral/10 px-4 py-1.5 font-body text-sm font-bold text-coral">
               <Anchor size={15} /> Ages 5&ndash;9 &bull; CBC &bull; Cambridge &bull; IB &bull; British
             </span>
-            <h1 className="mt-5 font-display text-4xl leading-[1.1] text-teal-dark sm:text-5xl lg:text-6xl">
-              Where your Child is Guarded and Guided into their Full Potential
-              <br />
-              Meets <span className="text-coral">Discovery</span>
-            </h1>
+                <h1 className="mt-5 font-display text-4xl leading-[1.1] text-teal-dark sm:text-5xl lg:text-6xl">
+                Where Your Child Is
+                <br />
+                <span className="text-coral">Guarded</span> and Guided Into
+                Their Full Potential
+              </h1>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink/80">
               Inspiring young minds through premium, learner-centered
               homeschooling. Custom online and in-person learning spaces that
