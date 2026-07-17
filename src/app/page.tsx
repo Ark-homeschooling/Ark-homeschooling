@@ -17,9 +17,9 @@ export default function Home() {
               <Anchor size={15} /> Ages 5&ndash;9 &bull; CBC &bull; Cambridge &bull; IB &bull; British
             </span>
             <h1 className="mt-5 font-display text-4xl leading-[1.1] text-teal-dark sm:text-5xl lg:text-6xl">
-              Where Curiosity
+              Where your Child is Guarded and Guided into their Full Potential
               <br />
-              Meets <span className="text-coral">Discovery</span>
+              
             </h1>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink/80">
               Inspiring young minds through premium, learner-centered
