@@ -88,7 +88,7 @@ export default function AboutPage() {
               </p>
               <p className="mt-4 font-body leading-relaxed text-ink/85">
                 Whatever info you need about your child&apos;s learning
-                journey, feel free to ask &mdash; Teacher Farida and the
+                journey, feel free to ask. Teacher Farida and the
                 Ark team are here to guide every step of the way.
               </p>
 
