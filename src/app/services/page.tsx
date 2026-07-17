@@ -85,7 +85,7 @@ export default function ServicesPage() {
         </h2>
         <p className="mx-auto mt-3 max-w-xl font-body text-cream/80">
           Tell us about your child and we&apos;ll help you choose the right
-          path &mdash; no pressure, just a friendly chat.
+          path. No pressure, just a friendly chat.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
