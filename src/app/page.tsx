@@ -19,7 +19,7 @@ export default function Home() {
                 <h1 className="mt-5 font-display text-4xl leading-[1.1] text-teal-dark sm:text-5xl lg:text-6xl">
                 Where Your Child Is
                 <br />
-                <span className="text-coral">Guarded</span> and Guided Into
+                <span className="text-coral">Guarded</span> and <span className="text-coral">Guided</span> Into
                 Their Full Potential
               </h1>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink/80">
