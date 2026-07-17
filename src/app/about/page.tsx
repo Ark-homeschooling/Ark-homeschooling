@@ -29,7 +29,7 @@ export default function AboutPage() {
             safety and growing your child&apos;s head, heart, and hands
             through educative, fun-filled activities. We believe every
             child deserves a learning space that feels as safe and steady
-            as an ark on open water &mdash; sturdy enough to weather any
+            as an ark on open water; sturdy enough to weather any
             storm, and joyful enough to make the voyage a wonder.
           </p>
         </div>
