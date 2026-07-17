@@ -4,6 +4,7 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Whale from "@/components/Whale";
 import EnquiryForm from "@/components/EnquiryForm";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About & Educator | Ark Homeschooling",
@@ -68,10 +69,15 @@ export default function AboutPage() {
         <div className="section-pad relative mx-auto max-w-4xl">
           <SectionHeading eyebrow="Meet Your Educator" title="Teacher Farida" />
 
-          <div className="card-panel mt-10 grid gap-8 bg-white p-8 md:grid-cols-[220px_1fr] md:p-10">
-            <div className="mx-auto flex h-44 w-44 items-center justify-center rounded-full bg-teal/10 text-6xl font-display text-teal md:h-full md:w-full">
-              TF
-            </div>
+                          <div className="mx-auto h-44 w-44 overflow-hidden rounded-full md:h-full md:w-full">
+                  <Image
+                    src="/profile.jpeg"
+                    alt="Teacher Farida"
+                    width={220}
+                    height={220}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
             <div>
               <div className="flex items-center gap-2">
                 <ShieldCheck size={20} className="text-coral" />
