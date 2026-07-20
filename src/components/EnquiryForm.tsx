@@ -8,7 +8,7 @@ import { Send, CheckCircle2, AlertCircle } from "lucide-react";
 //    thearkhomeschooling@gmail.com).
 // 2. Copy the endpoint it gives you, e.g. "https://formspree.io/f/abcdwxyz".
 // 3. Paste it below.
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdnyaly";
 
 type Status = "idle" | "sending" | "success" | "error";
 
