@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { FacebookIcon, InstagramIcon, YoutubeIcon, TiktokIcon } from "./icons/BrandIcons";
 
 // TODO: Replace the "#" hrefs below with your real Facebook, Instagram,
@@ -9,21 +12,47 @@ const socials = [
   { href: "#", label: "TikTok", Icon: TiktokIcon, color: "#000000" },
 ];
 
+function SocialButton({
+  href,
+  label,
+  Icon,
+  color,
+}: {
+  href: string;
+  label: string;
+  Icon: React.ComponentType<{ size?: number; className?: string }>;
+  color: string;
+}) {
+  const [hover, setHover] = useState(false);
+
+  return (
+    
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={label}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      style={{
+        backgroundColor: hover ? color : "#ffffff",
+        color: hover ? "#ffffff" : color,
+        boxShadow: hover
+          ? `0 8px 18px -4px ${color}99`
+          : "0 4px 12px -2px rgba(31,58,77,0.25)",
+        transform: hover ? "translateY(-4px) scale(1.1) rotate(6deg)" : "none",
+      }}
+      className="flex h-11 w-11 items-center justify-center rounded-full transition-all duration-300"
+    >
+      <Icon size={20} />
+    </a>
+  );
+}
+
 export default function SocialIcons({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      {socials.map(({ href, label, Icon, color }) => (
-        
-          key={label}
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={label}
-          style={{ ["--brand" as string]: color }}
-          className="group flex h-11 w-11 items-center justify-center rounded-full bg-white text-[var(--brand)] shadow-[0_4px_12px_-2px_rgba(31,58,77,0.25)] transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:rotate-6 hover:bg-[var(--brand)] hover:text-white hover:shadow-[0_8px_18px_-4px_var(--brand)]"
-        >
-          <Icon size={20} className="transition-transform duration-300 group-hover:scale-110" />
-        </a>
+      {socials.map((s) => (
+        <SocialButton key={s.label} {...s} />
       ))}
     </div>
   );
