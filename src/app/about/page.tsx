@@ -5,6 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Whale from "@/components/Whale";
 import EnquiryForm from "@/components/EnquiryForm";
 import Image from "next/image";
+import { MindBadge, MoralsBadge, MasteryBadge } from "@/components/icons/ValueBadges";
 
 export const metadata: Metadata = {
   title: "About & Educator | Ark Homeschooling",
