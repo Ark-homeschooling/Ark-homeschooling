@@ -6,6 +6,7 @@ const socials = [
   { href: "#", label: "Facebook", Icon: FacebookIcon },
   { href: "#", label: "Instagram", Icon: InstagramIcon },
   { href: "#", label: "YouTube", Icon: YoutubeIcon },
+  { href: "#", label: "TikTok", Icon: TiktokIcon },
 ];
 
 export default function SocialIcons({ className = "" }: { className?: string }) {
