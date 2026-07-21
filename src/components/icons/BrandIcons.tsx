@@ -29,3 +29,13 @@ export function YoutubeIcon({ size = 18, className = "" }: IconProps) {
     </svg>
   );
 }
+export function TiktokIcon({ size = 18, className = "" }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M16.5 3c.4 2.2 1.9 3.7 4 4v3c-1.4 0-2.8-.4-4-1.2v6.4c0 3.3-2.7 5.8-6 5.8s-6-2.5-6-5.8 2.7-5.8 6-5.8c.3 0 .7 0 1 .1v3.1a2.7 2.7 0 1 0 1.9 2.6V3h3.1Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
