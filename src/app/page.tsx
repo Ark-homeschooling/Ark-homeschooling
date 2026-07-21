@@ -5,6 +5,7 @@ import Whale from "@/components/Whale";
 import WaveDivider from "@/components/WaveDivider";
 import SectionHeading from "@/components/SectionHeading";
 import InfoCard from "@/components/InfoCard";
+import { MindBadge, MoralsBadge, MasteryBadge } from "@/components/icons/ValueBadges";
 
 export default function Home() {
   return (
