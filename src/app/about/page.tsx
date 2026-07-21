@@ -37,31 +37,31 @@ export default function AboutPage() {
         </div>
 
         <div className="section-pad mt-14 grid gap-6 md:grid-cols-3">
-          <div className="card-panel bg-seafoam p-7 text-center">
-            <GraduationCap size={28} className="mx-auto text-teal" />
-            <h3 className="mt-3 font-display text-lg text-teal-dark">Head</h3>
-            <p className="mt-2 font-body text-sm text-ink/75">
-              Strong academic foundations across CBC, Cambridge, IB and
-              British curricula.
-            </p>
-          </div>
-          <div className="card-panel bg-peach p-7 text-center">
-            <HeartHandshake size={28} className="mx-auto text-coral" />
-            <h3 className="mt-3 font-display text-lg text-teal-dark">Heart</h3>
-            <p className="mt-2 font-body text-sm text-ink/75">
-              Nurturing character, empathy, and confidence in every
-              child we teach.
-            </p>
-          </div>
-          <div className="card-panel bg-seafoam p-7 text-center">
-            <Sparkles size={28} className="mx-auto text-gold" />
-            <h3 className="mt-3 font-display text-lg text-teal-dark">Hands</h3>
-            <p className="mt-2 font-body text-sm text-ink/75">
-              Hands-on, fun-filled activities and digital literacy for
-              real-world skills.
-            </p>
-          </div>
-        </div>
+  <div className="card-panel bg-seafoam p-7 text-center">
+    <MindBadge size={64} className="mx-auto" />
+    <h3 className="mt-3 font-display text-lg text-teal-dark">Mind</h3>
+    <p className="mt-2 font-body text-sm text-ink/75">
+      Strong academic foundations across CBC, Cambridge, IB and
+      British curricula.
+    </p>
+  </div>
+  <div className="card-panel bg-peach p-7 text-center">
+    <MoralsBadge size={64} className="mx-auto" />
+    <h3 className="mt-3 font-display text-lg text-teal-dark">Morals</h3>
+    <p className="mt-2 font-body text-sm text-ink/75">
+      Nurturing character, empathy, and confidence in every
+      child we teach.
+    </p>
+  </div>
+  <div className="card-panel bg-seafoam p-7 text-center">
+    <MasteryBadge size={64} className="mx-auto" />
+    <h3 className="mt-3 font-display text-lg text-teal-dark">Mastery</h3>
+    <p className="mt-2 font-body text-sm text-ink/75">
+      Hands-on, fun-filled activities and digital literacy for
+      real-world skills.
+    </p>
+  </div>
+</div>
       </section>
 
       {/* MEET THE EDUCATOR */}
