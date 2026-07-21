@@ -52,29 +52,29 @@ export default function Home() {
       <WaveDivider color="#DCEEF0" className="mt-10 md:mt-16" />
 
       {/* WHO WE ARE */}
-      <section className="bg-seafoam pb-20 pt-4">
-        <div className="section-pad grid items-center gap-12 md:grid-cols-2">
-          <InfoCard icon={<Brain size={24} className="text-coral" />} title="Who We Are" bg="bg-white">
-            A warm, committed family dedicated to safety and growing your
-            child&apos;s head, heart, and hands through educative, fun-filled
-            activities.
-          </InfoCard>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
-              <Brain size={26} className="text-teal" />
-              <span className="font-display text-sm text-ink">Head</span>
-            </div>
-            <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
-              <Heart size={26} className="text-coral" />
-              <span className="font-display text-sm text-ink">Heart</span>
-            </div>
-            <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
-              <Sparkles size={26} className="text-gold" />
-              <span className="font-display text-sm text-ink">Hands</span>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="bg-seafoam pb-20 pt-4">
+  <div className="section-pad grid items-center gap-12 md:grid-cols-2">
+    <InfoCard icon={<Brain size={24} className="text-coral" />} title="Who We Are" bg="bg-white">
+      A warm, committed family dedicated to safety and growing your
+      child&apos;s mind, morals, and mastery through educative, fun-filled
+      activities.
+    </InfoCard>
+    <div className="grid grid-cols-3 gap-4">
+      <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
+        <MindBadge size={56} />
+        <span className="font-display text-sm text-ink">Mind</span>
+      </div>
+      <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
+        <MoralsBadge size={56} />
+        <span className="font-display text-sm text-ink">Morals</span>
+      </div>
+      <div className="card-panel flex flex-col items-center justify-center gap-2 bg-white p-5 text-center">
+        <MasteryBadge size={56} />
+        <span className="font-display text-sm text-ink">Mastery</span>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WaveDivider color="#F7E3CB" />
 
