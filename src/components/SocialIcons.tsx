@@ -26,7 +26,7 @@ function SocialButton({
   const [hover, setHover] = useState(false);
 
   return (
-    
+    <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
