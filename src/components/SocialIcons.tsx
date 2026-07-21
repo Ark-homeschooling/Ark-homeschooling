@@ -1,4 +1,4 @@
-import { FacebookIcon, InstagramIcon, YoutubeIcon, TikTokIcon } from "./icons/BrandIcons";
+import { FacebookIcon, InstagramIcon, YoutubeIcon, TiktokIcon } from "./icons/BrandIcons";
 
 // TODO: Replace the "#" hrefs below with your real Facebook, Instagram
 // and YouTube page links once they're ready.
